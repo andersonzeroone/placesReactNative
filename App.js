@@ -29,7 +29,7 @@ export default function App() {
               headerRight: ({ tintColor }) => (
                 <IconButton
                   icon="add"
-                  size={24}
+                  size={34}
                   color={tintColor}
                   onPress={() => navigation.navigate('AddPlace')}
                 />
