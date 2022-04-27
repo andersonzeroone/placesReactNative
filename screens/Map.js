@@ -44,6 +44,10 @@ function Map({ navigation, route }) {
     });
   }, [navigation, selectedLocation]);
 
+
+
+
+
   useLayoutEffect(() => {
     if (initialLocation) {
       return;
